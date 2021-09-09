@@ -1,8 +1,8 @@
 .demo-grid {
-	--body-text: #585858;
-	--body-text-alt: #cf1d56;
+	--body-text: #fff;
+	--body-text-alt: #fff;
 	--body-bg: #010101;
-	--link-text: #c7c5c5;
+	--link-text: #fff;
 	--link-text-hover: #fff;
 	--content-font: "Cormorant Garamond", sans-serif;
 }
@@ -38,13 +38,13 @@
 .page-nav__item--close {
 	font-size: 1.85em;
 	margin: 1em 0 0 0;
-	color: var(--body-text-alt);
+	color: var(--body-text-white);
 	position: relative;
 }
 
 .page-nav__item--close:hover,
 .page-nav__item--close:focus {
-	color: var(--body-text-alt);
+	color: var(--body-text-white);
 	text-decoration: line-through;
 }
 
